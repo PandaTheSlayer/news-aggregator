@@ -1,0 +1,23 @@
+symfony-blog:
+    url: https://feeds.feedburner.com/symfony/blog
+    destination: 'channel.item'
+    title: 'title'
+    content: 'description'
+    pubDate: 'pubDate'
+    guid: 'guid'
+
+php-developer:
+    url: http://phpdeveloper.org/feed
+    destination: 'channel.item'
+    title: 'title'
+    content: 'description'
+    pubDate: 'pubDate'
+    guid: 'guid'
+
+youtube:
+    url: https://www.youtube.com/feeds/videos.xml?channel_id=UCTuplgOBi6tJIlesIboymGA
+    destination: 'entry'
+    title: 'title'
+    content: 'id'
+    pubDate: 'published'
+    guid: 'id'
